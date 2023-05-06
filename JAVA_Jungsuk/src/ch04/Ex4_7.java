@@ -8,5 +8,11 @@ class Ex4_7 {
 			num = (int) (Math.random() * 6) + 1;
 			System.out.println(num);
 		}
+		
+
+		// -5~5사이의 난수를 20번 반복한다.
+		for (int i = 1; i <= 20; i++) {
+			System.out.println((int) (Math.random() * 11) -5);
+		}
 	}
 }
