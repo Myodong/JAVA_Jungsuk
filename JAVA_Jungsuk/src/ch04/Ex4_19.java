@@ -7,8 +7,8 @@ class Ex4_19
 		Loop1 : for(int i=2;i <=9;i++) {	
 				for(int j=1;j <=9;j++) {
 					if(j==5)
-						break Loop1;
-//						break;
+						break Loop1; // 이중포문 둘다 멈춤
+//						break; //  for문 j만 멈춤
 //						continue Loop1;
 //						continue;
 					System.out.println(i+"*"+ j +"="+ i*j);
