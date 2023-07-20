@@ -8,7 +8,7 @@ class Ex4_18 {
 
 		Scanner scanner = new Scanner(System.in);
 
-		while(true) {
+		while(true) { // 무한반복문
 			System.out.println("(1) square");
 			System.out.println("(2) square root");
 			System.out.println("(3) log");
